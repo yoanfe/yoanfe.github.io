@@ -1,0 +1,79 @@
+@font-face{
+	font-family: BarleyScript_PERSONAL_USE;
+	src: url("font/BarleyScript_PERSONAL_USE.ttf");
+}
+@font-face{
+	font-family: Bandira-Script-DEMO;
+	src: url("font/Bandira-Script-DEMO.ttf");
+}@font-face{
+	font-family: ARLRDBD;
+	src: url("font/ARLRDBD.ttf");
+}@font-face{
+	font-family: Anydore;
+	src: url("font/Anydore.otf");
+}@font-face{
+	font-family: BRLNSR;
+	src: url("BRLNSR");
+}
+h1{
+		text-align: center;
+		font-size: 68px;
+		font-family: Bandira-Script-DEMO;
+		color: #25d366;
+}
+h2{
+		text-align: center;
+		font-size: 28px;
+		font-family: BRNLSR;
+		color: #fff294;
+}
+h3{
+		text-align: center;
+		font-size: 30px;
+		font-family: ARLRDBD;
+}
+h4{
+		text-align: center;
+		font-size: 30px;
+		font-family: BRNLSR;
+		margin-top: -20px;
+}
+h5{
+		text-align: center;
+		font-size: 40px;
+		font-family: BRNLSR;
+}
+p{
+		text-align: center;
+		margin-top: -30px;
+		color: #25d366;
+		font-size: 40px;
+}
+body{
+		background-image: url(background/background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: black;
+		color: white;
+}
+
+button{
+	align-items: center;
+	padding: 10px;
+	width: 400px;
+	color: white;
+	background-color: #25d366;
+
+}
+.container{
+	text-align: center;
+}
+@media all and (max-width: 800px){
+	body{
+		background-image: cover;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+}
